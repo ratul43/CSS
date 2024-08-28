@@ -1,0 +1,15 @@
+CSS
+.container {
+    display: grid;
+    grid-template-rows: repeat(4,100px);
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: start;  /*row axis*/ 
+    align-items: end; /*column axis*/
+}
+
+For justify items individually
+
+.item-1{
+    justify-self: center;
+    align-self: stretch;
+}

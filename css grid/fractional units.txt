@@ -1,0 +1,19 @@
+HTML
+Container has 3 items
+.container {
+    display: grid;
+    /* grid-template-rows: 100px 100px;*/
+   
+
+    grid-template-rows: repeat(2, 100px);
+   
+
+     /*grid-template-columns: 1fr 1fr 1fr;*/
+   
+
+     /*grid-template-columns: 1fr minmax(100px, 3fr) 1fr;
+        item will stop shrinking whenever it hits 100px*/
+
+    grid-gap: 1em 3em;
+
+}
